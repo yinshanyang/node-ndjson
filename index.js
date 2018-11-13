@@ -9,5 +9,6 @@ const format = (path, data) => fs.writeFileSync(
     .filter((d) => d)
     .map((d) => JSON.stringify(d)).join('\n')
 )
+const formatRow = (row) => JSON.stringify(row).concat('\n')
 
-module.exports = { parse, format }
+module.exports = { parse, format, formatRow }
