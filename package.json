@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "split2": "^3.0.0"
+  },
+  "peerDependencies": {
+    "rxjs": ">= 6.x"
+  }
 }
